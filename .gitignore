@@ -1,0 +1,15 @@
+vendor/
+node_modules/
+
+Homestead.yaml
+Homestead.json
+.env
+public/uploads/avatars
+.env.behat
+.DS_Store
+vault.hcl
+*.editorconfig
+public/uploads
+.coverage
+VagrantFile
+_ide_helper_models.php

@@ -1,0 +1,7 @@
+path "transit/decrypt/*" {
+  capabilities = ["create", "update"]
+}
+
+path "transit/encrypt/*" {
+  capabilities = ["create", "update"]
+}

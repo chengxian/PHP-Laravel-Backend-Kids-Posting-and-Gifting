@@ -1,0 +1,29 @@
+machine:
+  timezone:
+    America/Chicago
+
+  php:
+    version: 5.5.9
+
+  environment:
+      ENVIRONMENT: testing
+      DB_HOST: 127.0.0.1
+      DB_DATABASE: circle_test
+      DB_USERNAME: ubuntu
+      DB_CONNECTION: sqlite_test
+
+      APP_ENV: local
+      APP_DEBUG: false
+
+      CACHE_DRIVER: file
+      QUEUE_DRIVER: sync
+
+      LOGGING_LEVEL: DEBUG
+      LOG_MAX_FILES: 5
+
+      VAULT_ENABLED: false
+
+      RAVEN_ENABLED: true
+      RAVEN_LEVEL: warning
+      RAVEN_QUEUE_CONNECTION: sync
+      RAVEN_QUEUE_NAME: sentry
