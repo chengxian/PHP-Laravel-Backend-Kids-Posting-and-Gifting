@@ -14,7 +14,6 @@
     * [Notes](#notes)
     * [Test harness](#test-harness)
     * [Todo](#todo)
-  * [Dwolla](#dwolla)
 * [Contributing](contributing.md "Contributing")
 
 # Install
